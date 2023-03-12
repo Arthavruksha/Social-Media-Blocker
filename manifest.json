@@ -1,0 +1,12 @@
+{
+    "name": "Instagram and Whatsapp Redirector",
+    "version": "1.0",
+    "description": "Redirects Instagram and Whatsapp to YouTube",
+    "manifest_version": 2,
+    "permissions": ["webRequest", "webRequestBlocking", "https://*.instagram.com/*", "https://web.whatsapp.com/*"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    }
+  }
+  
